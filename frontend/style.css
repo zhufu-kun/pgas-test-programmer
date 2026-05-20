@@ -1,0 +1,61 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#f5f5f5;
+}
+
+.container{
+  width:90%;
+  margin:auto;
+  padding:30px;
+}
+
+.login-box{
+  width:350px;
+  background:white;
+  padding:30px;
+  margin:100px auto;
+  border-radius:10px;
+}
+
+.login-box input,
+.login-box select,
+.login-box button{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+}
+
+.dashboard{
+  display:none;
+}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:20px;
+}
+
+.action-buttons button,
+.export-buttons button,
+.search-box button{
+  padding:10px;
+  margin-right:10px;
+}
+
+table{
+  width:100%;
+  background:white;
+  border-collapse:collapse;
+}
+
+table th,
+table td{
+  padding:12px;
+  border:1px solid #ddd;
+}
